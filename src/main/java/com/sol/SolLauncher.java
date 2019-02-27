@@ -2,7 +2,7 @@ package com.sol;
 
 import javafx.application.Application;
 
-public class ManiLauncher {
+public class SolLauncher {
 
     public static void main(String[] args) {
          Application.launch(ManiIDE.class, args);
