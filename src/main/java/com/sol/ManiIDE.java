@@ -1,4 +1,4 @@
-package com.mani.ide;
+package com.sol;
 
 import javafx.application.Application;
 import javafx.stage.Stage;

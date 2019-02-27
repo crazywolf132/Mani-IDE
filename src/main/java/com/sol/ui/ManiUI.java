@@ -1,6 +1,6 @@
-package com.mani.ide.ui;
+package com.sol.ui;
 
-import com.mani.ide.ManiIDE;
+import com.sol.ManiIDE;
 
 public class ManiUI {
 

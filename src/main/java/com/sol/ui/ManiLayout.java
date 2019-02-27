@@ -1,4 +1,4 @@
-package com.mani.ide.ui;
+package com.sol.ui;
 
 import javafx.scene.layout.BorderPane;
 
