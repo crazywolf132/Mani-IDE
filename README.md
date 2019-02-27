@@ -1,0 +1,2 @@
+# Mani-IDE
+Máni IDE
