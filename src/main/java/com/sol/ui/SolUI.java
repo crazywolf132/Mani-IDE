@@ -1,6 +1,7 @@
 package com.sol.ui;
 
 import com.sol.Sol;
+import com.sol.SolConts;
 import com.sol.util.CloseHandler;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
@@ -35,9 +36,12 @@ public class SolUI {
         stage.setScene(scene);
 
         CloseHandler handler = new CloseHandler(sol);
+        stage.setOnCloseRequest(handler);
+
+        stage.setTitle(SolConts.NAME + " " + SolConts.VERSION);
     }
 
     public SolLayout getLayout() { return layout; }
-    
+
     public Sol getSol() { return sol; }
 }
