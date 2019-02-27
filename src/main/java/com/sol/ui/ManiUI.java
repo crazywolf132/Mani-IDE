@@ -1,14 +1,14 @@
 package com.sol.ui;
 
-import com.sol.ManiIDE;
+import com.sol.Sol;
 
 public class ManiUI {
 
-    private final ManiIDE maniIDE;
+    private final Sol sol;
     private ManiLayout layout;
 
-    public ManiUI(ManiIDE maniIDE) {
-        this.maniIDE = maniIDE;
+    public ManiUI(Sol sol) {
+        this.sol = sol;
 
     }
 }
