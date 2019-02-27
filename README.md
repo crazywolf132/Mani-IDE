@@ -1,2 +1,2 @@
-# Mani-IDE
-Máni IDE
+# Sól
+Sól - Máni IDE
