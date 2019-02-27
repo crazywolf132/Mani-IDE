@@ -2,12 +2,12 @@ package com.sol.ui;
 
 import com.sol.Sol;
 
-public class ManiUI {
+public class SolUI {
 
     private final Sol sol;
     private ManiLayout layout;
 
-    public ManiUI(Sol sol) {
+    public SolUI(Sol sol) {
         this.sol = sol;
 
     }
