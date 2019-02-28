@@ -115,4 +115,16 @@ public class EditorTab extends Tab implements Initializable {
             }
         });
     }
+
+    public boolean isChanged() { return changed; }
+    public boolean isSucceeded() { return succeeded; }
+
+    public WebEngine getWebEngine() { return webEngine; }
+    public WebView getWebView() { return webView; }
+
+    public void setWebView(WebView webView) { this.webView = webView; }
+
+    public Tab getTab() { return this; }
+    
+    public String getTitle() { return title; }
 }
