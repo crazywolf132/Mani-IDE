@@ -6,7 +6,9 @@ public abstract class SolPlugin {
 
     protected  PluginProperties pluginProperties;
 
-    public SolPlugin() { this.pluginProperties.getClass().getAnnotation(PluginProperties.class); }
+    public SolPlugin() {
+        this.pluginProperties = getClass().getAnnotation(PluginProperties.class);
+    }
 
     protected final void initialize() {
         if (pluginProperties == null) {

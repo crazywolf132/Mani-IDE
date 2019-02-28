@@ -125,6 +125,6 @@ public class EditorTab extends Tab implements Initializable {
     public void setWebView(WebView webView) { this.webView = webView; }
 
     public Tab getTab() { return this; }
-    
+
     public String getTitle() { return title; }
 }
